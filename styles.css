@@ -1,6 +1,18 @@
 /* Navbar section */
-*{
-font-family: Work Sans;
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+}
+.G{
+    text-align: center;
+font-size: 45px;
+font-weight: 700;
+}
+.amer{
+font-size: 45px;
+font-weight: 700;
+margin: 0;
+margin-left: 20px;
 }
 
 .logo{
@@ -18,8 +30,17 @@ height: 40px;
     gap: 10px;
 }
 
-.nav-menu ul{
-    display: flex;
-    text-decoration: none;
-    gap: 10px;
+.nav-menu li{
+    display: float;
+    float: left;
+    margin-left: 32px;
+    margin-right: 32px;
+    list-style-type: none;
+}
+
+.follow-area{
+    width: 262px;
+height: 56px;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
 }
