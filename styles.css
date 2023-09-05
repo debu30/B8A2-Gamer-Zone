@@ -1,0 +1,25 @@
+/* Navbar section */
+*{
+font-family: Work Sans;
+}
+
+.logo{
+    display: flex;
+}
+
+.gamer-logo{
+    width: 86.041px;
+height: 40px;
+}
+
+
+.nav-menu{
+    display: flex;
+    gap: 10px;
+}
+
+.nav-menu ul{
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+}
