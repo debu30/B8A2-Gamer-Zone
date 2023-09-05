@@ -186,3 +186,58 @@ font-weight: 400;
 font-size: 20px;
 font-weight: 500;
 }
+
+
+
+/* instant play section */
+.instant-play-section{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 260px;
+    margin-left: 440px;
+
+}
+
+
+.instant-text-area{
+    width: 353px;
+    margin-right: 0;
+}
+
+.instant-play-tittle{
+    color: #0B0223;
+font-size: 48px;
+font-weight: 700;
+text-align: right;
+}
+
+
+.play-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+.instant-play-text{
+    color: #534C64;
+text-align: right;
+font-size: 18px;
+font-weight: 400;
+}
+
+.instant-play-img{
+    position: relative;
+}
+
+.instant-play-man{
+    position: relative;
+}
+
+.instant-play-girl{
+    position: absolute;
+    bottom: -75px;
+    left: -160px;
+}
+
