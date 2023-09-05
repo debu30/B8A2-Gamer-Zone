@@ -1,5 +1,10 @@
 /* Navbar section */
 
+*{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+}
 .nav-bar{
     display: flex;
     justify-content: space-around;
@@ -289,6 +294,7 @@ footer {
     background: #0B0223;
     padding-top: 120px;
     padding-bottom: 120px;
+    width: 1920px;
 }
 
 .logo-footer{

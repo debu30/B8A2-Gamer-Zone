@@ -1,0 +1,103 @@
+
+/* small device */
+
+@media screen  and (max-width: 576px) {
+
+    /* navbar section */
+    
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.nav-menu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+/*  goat section*/
+
+.goat-section{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* instant section */
+.instant-play-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.instant-play-tittle{
+    text-align: center;
+    }
+
+/* game section */
+.games-section{
+
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    align-items: center;
+    justify-content: center;
+
+
+} 
+
+
+.footer-details-list{
+display: grid;
+grid-template-columns: repeat(3, 0.1fr);
+
+    
+}
+
+
+.social-logo{
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0;
+}
+
+.footer-terms{
+    display: grid;
+    grid-template-columns: repeat(2, 0.1fr);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-condition{
+    
+}
+
+}
