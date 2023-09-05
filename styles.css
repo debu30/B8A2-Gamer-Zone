@@ -43,4 +43,51 @@ height: 40px;
 height: 56px;
 border-radius: 8px;
 background: rgba(11, 2, 35, 0.10);
+display: flex;
+gap: 16px;
+justify-content: center;
+align-items: center;
 }
+
+
+
+
+/* Goat section */
+
+
+
+
+
+
+.goat-icons{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.primary-button{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+
+    border: none;
+    border-radius: 48px;
+
+
+color: #FFF;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+
+}
+
+.pink-button{
+background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
+
+.rougue{
+    background: #4EC5F7;
+}
+
+
