@@ -1,7 +1,7 @@
 
 /* small device */
 
-@media screen  and (max-width: 425px) {
+@media screen  and (max-width: 426px) {
 
     /* navbar section */
     
@@ -25,7 +25,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 20px;
     
+}
+
+.main-section{
+    width: auto;
 }
 
 /*  goat section*/
@@ -35,9 +40,20 @@
     flex-direction: column;
     background-image: url(images/Group\ 14.png);
     background-repeat: no-repeat;
+    gap: 80px;
     justify-content: center;
     align-items: center;
+
 }
+
+.goat-img{
+    margin-top: 0px;
+    width: 350px;
+}
+
+
+
+
 
 .card-area{
     display: flex;
@@ -61,16 +77,56 @@
     }
 
 /* game section */
+
+.games-section{
+width: auto;
+
+}
+
+.games-section-container{
+    width: auto;
+background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+
+
+
 .games-section{
 
-    display: grid;
-    grid-template-columns: repeat(3, 0.1fr);
+ display: grid;
+  grid-template-columns: repeat(2, 0.1fr);
     align-items: center;
-    justify-content: center;
-
+    justify-content: center; 
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
 
 
 } 
+
+
+
+
+.game-btn{
+    width: 120px;
+border-radius: 50px;
+background: #FFF;
+border: none; 
+
+}
+
+.btn-text{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    justify-content: center;
+    font-family: 9px;
+}
+
+.game-btn img{
+    width: 50px;
+}
+
+
 
 
 .footer-details-list{
@@ -107,7 +163,7 @@ flex-direction: column;
 footer{
     background: #0B0223;
     padding-top: 120px;
-    padding-bottom: 120px;
+ margin-left: 0;
 width: auto;
 align-items: center;
 justify-content: center;
